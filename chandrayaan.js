@@ -66,7 +66,12 @@ class GalacticSpacecraft {
         case 'W':
           this.direction = 'S';
           break;
-       
+        case 'Up':
+          this.direction = 'W';
+          break;
+        case 'Down':
+          this.direction = 'W';
+          break;
       }
     }
   
@@ -84,7 +89,12 @@ class GalacticSpacecraft {
         case 'W':
           this.direction = 'N';
           break;
-        
+         case 'Up':
+          this.direction = 'E';
+          break;
+        case 'Down':
+          this.direction = 'E';
+          break;
       }
     }
   
